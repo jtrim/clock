@@ -1,5 +1,12 @@
-This is a new sinatra app.
+# Clock expirement
 
-It uses coffee-script for javascripts, scss for styles, and slim for
-a templating engine. The coffee and scss compilation happens through sprockets
-dynamically and view templates are rendered via slim dynamically.
+This is an experiment to build a fractal clock in Coffeescript using canvas.
+Inspiration here: http://www.dqd.com/~mayoff/programs/FractalClock/
+
+To run:
+
+1. Clone this repo
+2. `cd clock`
+3. `bundle`
+4. `rackup`
+5. Visit `http://localhost:9292`
